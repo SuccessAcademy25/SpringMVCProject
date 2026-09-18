@@ -14,9 +14,11 @@ import org.springframework.web.servlet.view.JstlView;
 @Configuration
 @EnableWebMvc
 @ComponentScan({ 
+	"com.jsa",
 	"com.jsa.controller",
     "com.jsa.service",
-    "com.jsa.dao" })
+    "com.jsa.dao" 
+    })
 public class JSAWebConfig {
 	@Bean
 	public InternalResourceViewResolver viewResolver() {

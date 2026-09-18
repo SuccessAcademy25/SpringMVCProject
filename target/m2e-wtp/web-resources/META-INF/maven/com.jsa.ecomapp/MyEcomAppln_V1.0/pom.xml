@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jsa.ecomapp</groupId>
-	<artifactId>MyEcomAppln</artifactId>
+	<artifactId>MyEcomAppln_V1.0</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MyEcomAppln Maven Webapp</name>
@@ -64,6 +64,6 @@
 
 	</dependencies>
 	<build>
-		<finalName>MyEcomAppln</finalName>
+		<finalName>MyEcomAppln_V1.0</finalName>
 	</build>
 </project>

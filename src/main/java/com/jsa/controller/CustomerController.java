@@ -4,6 +4,7 @@ import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -34,9 +35,10 @@ public class CustomerController {
 	}
 
 	@RequestMapping(value = "/addCustomers.jsa", method = RequestMethod.GET)
-	public ModelAndView addCutomers(HttpServletRequest request) {
+	public ModelAndView addCutomers(@ModelAttribute Customer customer) {
 		System.out.println("************CustomerController-addCutomers()****************");
-		ModelAndView model = new ModelAndView("sumbitRegister");
+		ModelAndView model = new ModelAndView("register");
+		model.addObject("customer", customer);
 		String page = "register";
 		String message = "";
 		Customer cust1 = new Customer();
@@ -45,13 +47,13 @@ public class CustomerController {
 		cust1.setCustId(generateCustId());
 
 		// cust1.setCustId(Integer.parseInt(request.getParameter("custId")));
-		cust1.setCustName(request.getParameter("custName"));
-		cust1.setCustEmail(request.getParameter("email"));
-		cust1.setPhone(request.getParameter("phone"));
-		cust1.setCustCity(request.getParameter("city"));
-		cust1.setCustsalary(request.getParameter("salary"));
-		cust1.setGender(request.getParameter("gender"));
-		cust1.setDate(request.getParameter("date"));
+		cust1.setCustName(customer.getCustName());
+		cust1.setCustEmail(customer.getCustEmail());
+		cust1.setPhone(customer.getPhone());
+		cust1.setCustCity(customer.getCustCity());
+		cust1.setCustsalary(customer.getCustsalary());
+		cust1.setGender(customer.getGender());
+		cust1.setDate(customer.getDate());
 		System.out.println(cust1);
 
 		// boolean checkValidation= CustomerDataValidation.validateRequired(cust1);

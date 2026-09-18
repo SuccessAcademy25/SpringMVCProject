@@ -17,6 +17,6 @@ public class JSAWebAppInitializer extends AbstractAnnotationConfigDispatcherServ
 	protected String[] getServletMappings() {
 		System.out.println(" ** getServletMappings **");
 		//return new String[] {"/","*.jsa","*.do" };
-		return new String[] {"/","*.jsa" };
+		return new String[] {"/" };
 	}
 }
