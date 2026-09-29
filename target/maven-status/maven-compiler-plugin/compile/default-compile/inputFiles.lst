@@ -3,8 +3,9 @@ K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java
 K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\controller\CustomerController.java
 K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\dao\CustomerDao.java
 K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\dao\CustomerDAOIMPL.java
+K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\dao\CustomerRowMapper.java
 K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\model\Customer.java
-K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\model\Serachcriteria.java
+K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\model\SearchCriteria.java
 K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\service\CustomerService.java
 K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\service\CustomerSeviceImpl.java
 K:\JavaBatch\JavaBatch-26\AdavanceJava\Spring\WS2\MyEcomAppln_V1.0\src\main\java\com\jsa\validator\CustomerDataValidation.java

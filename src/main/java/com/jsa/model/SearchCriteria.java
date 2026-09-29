@@ -1,17 +1,17 @@
  package com.jsa.model;
 
-public class Serachcriteria {
+public class SearchCriteria {
 
 	private int id;
 	private String email;
-	private long phone;
+	private String phone;
 
-	public Serachcriteria() {
+	public SearchCriteria() {
 		super();
 
 	}
 
-	public Serachcriteria(int id, String email, long phone) {
+	public SearchCriteria(int id, String email, String phone) {
 		super();
 		this.id = id;
 		this.email = email;
@@ -34,11 +34,11 @@ public class Serachcriteria {
 		this.email = email;
 	}
 
-	public long getPhone() {
+	public String getPhone() {
 		return phone;
 	}
 
-	public void setPhone(long phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 
