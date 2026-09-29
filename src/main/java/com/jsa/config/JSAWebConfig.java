@@ -45,6 +45,8 @@ public class JSAWebConfig {
 		JdbcTemplate jdbcTemp = new JdbcTemplate(myds);
 		return jdbcTemp;
 	}
+	
+	
 }
 
 
